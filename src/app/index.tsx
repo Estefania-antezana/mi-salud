@@ -5,6 +5,7 @@ import { colors } from './constants/colors';
 import Header from './components/Header';
 import ScoreRing from './components/ScoreRing';
 import Actions from './components/Actions';
+import AssistantCard from './components/AssistantCard';
 
 export default function Index() {
 return (
@@ -14,6 +15,7 @@ return (
 <Header />
 <ScoreRing />
 <Actions/>
+<AssistantCard/>
 <TabBar />
 </View>
 </SafeAreaView>
