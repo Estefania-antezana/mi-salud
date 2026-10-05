@@ -12,17 +12,18 @@ export default function Index() {
 return (
 <SafeAreaView style={styles.screen}>
 <View style={styles.content}>
-{/* COMPONENTS: add each one right above this line */}
 <Header />
 <ScoreRing />
 <Actions/>
 <AssistantCard/>
 <HealthSystems/>
-<TabBar />
+{/* COMPONENTS: add each one right above this line */}
 </View>
+<TabBar />
 </SafeAreaView>
 );
 }
+
 const styles = StyleSheet.create({
 screen: { flex: 1, backgroundColor: colors.background },
 content: {
