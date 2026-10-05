@@ -6,6 +6,7 @@ import Header from './components/Header';
 import ScoreRing from './components/ScoreRing';
 import Actions from './components/Actions';
 import AssistantCard from './components/AssistantCard';
+import HealthSystems from './components/HealthSystems';
 
 export default function Index() {
 return (
@@ -16,6 +17,7 @@ return (
 <ScoreRing />
 <Actions/>
 <AssistantCard/>
+<HealthSystems/>
 <TabBar />
 </View>
 </SafeAreaView>
